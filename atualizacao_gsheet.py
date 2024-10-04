@@ -30,4 +30,4 @@ def atualizar_gsheet(spreadsheet_url, spreadsheet_aba, excel_file):
     # 8. Atualize com os novos dados do DataFrame
     worksheet.update([df.columns.values.tolist()] + df.values.tolist())
 
-    print("Dados atualizados com sucesso!")
+    

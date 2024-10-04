@@ -17,6 +17,11 @@ def puxar_planilhas():
     apagar_arquivos_pasta(inputs)
 
     get_file('portfolio.xlsx', 'DWPII/srinfo', inputs)
+    get_file('projetos_empresas.xlsx', 'DWPII/srinfo', inputs)
+    get_file('informacoes_empresas.xlsx', 'DWPII/srinfo', inputs)
+    get_file('info_unidades_embrapii.xlsx', 'DWPII/srinfo', inputs)
+    get_file('ue_linhas_atuacao.xlsx', 'DWPII/srinfo', inputs)
+    get_file('macroentregas.xlsx', 'DWPII/srinfo', inputs)
     print('Download concluído')
 
 def apagar_arquivos_pasta(caminho_pasta):
